@@ -1,0 +1,56 @@
+.square{
+    float: left;
+    font-size: 40px;
+    height: 70px;
+    padding: 0px;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.square:hover{
+    background:yellow;
+}
+
+.numberBox{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.startButton{
+    width: 250px;
+    height: 50px;
+    border: 2px solid rgb(227, 10, 243);
+    background-color: rgba(255, 0, 38, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.startSection{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+
+.startButton:hover{
+    background-color: burlywood;
+}
+
+.allCardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cardImage{
+    width: 100%;
+    height: 200px;
+}
+
+.card{
+    height: 350px;
+}
